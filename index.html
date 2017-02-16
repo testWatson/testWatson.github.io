@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery.min.js"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.16.5.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="dvLunch">
+        <input id="siteId" type="text" placeholder="site id">
+        <input id="eventId" type="text" placeholder="event id">
+        <button id="lunch" type="button">lunch</button><br/><br/>
+    </div>
+
+
+    <div id="dvStart" style="display: none">
+        <button id="start" type="button">Start</button>
+        <button id="next" type="button" style="display: none">Next</button>
+    </div>
+
+    <br/><br/>
+    <img id="loading" src="loading.gif" style="display: none;width: 200px;height: 200px">
+    <div id="dvContent" style="display: none">
+        <h2 id="title"></h2>
+        <img id="slideUrl" style="width: 300px;height: 250px"/>
+    </div>
+
+</body>
+</html>
